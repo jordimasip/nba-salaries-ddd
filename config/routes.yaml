@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+players_put:
+  path: /players/{id}
+  controller: App\Controller\PlayersPutController
+  methods:  [PUT]
